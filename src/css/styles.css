@@ -5,10 +5,12 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
 /* @import url('./vite-promo.css'); */
 /* @import url('./header.css'); */
 
-:root {
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -22,4 +24,87 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+} */
+
+/* .radio-container label {
+  display: inline-block;
+  margin-right: 20px;
 }
+
+.radio-container input[type='radio'] {
+  display: inline-block;
+  vertical-align: middle;
+} */
+/* :root {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.radio-container input[type='radio'],
+.radio-container label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.radio-container label {
+  margin-right: 20px;
+} */
+
+/* input[type='text'] {
+  width: calc(
+   360 - 20px
+  ); 
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+} */
+
+/* input[type='radio'] {
+  width: auto;
+} */
+
+/* fieldset {
+  width: 248px;
+  height: 48px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-left: 54px;
+  padding-right: 54px;
+  font-size: 18px;
+} */
+
+/* input[type='number'] {
+  display: block;
+  width: 352px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.radio-container input[type='radio'] {
+  margin-right: 10px;
+}
+
+.radio-container input[type=] label[for='delay'] {
+  display: block;
+  margin-bottom: 15px;
+} */
+/* button {
+  width: 360px;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: #2772ec;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #6f93dc;
+} */
