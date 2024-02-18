@@ -3,6 +3,11 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
+const daysEl = document.querySelector('span[data-days');
+const hoursEl = document.querySelector('span[data-hours]');
+const minutesEl = document.querySelector('span[data-minutes]');
+const secondsEl = document.querySelector('span[data-seconds]');
+
 function convertMs(ms) {
   const second = 1000;
   const minute = second * 60;
@@ -67,12 +72,10 @@ class Timer {
 
   updateTimerDisplay(remainingTime) {
     const { days, hours, minutes, seconds } = Timer.convertMs(remainingTime);
-    const formattedDays = this.addLeadingZero(days);
-    const formattedHours = this.addLeadingZero(hours);
-    const formattedMinutes = this.addLeadingZero(minutes);
-    const formattedSeconds = this.addLeadingZero(seconds);
-    const timerDisplay = `${formattedDays}:${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
-    this.timerDisplay.textContent = timerDisplay;
+    daysEl.textContent = this.addLeadingZero(days);
+    hoursEl.textContent = this.addLeadingZero(hours);
+    minutesEl.textContent = this.addLeadingZero(minutes);
+    secondsEl.textContent = this.addLeadingZero(seconds);
   }
 
   addLeadingZero(value) {
